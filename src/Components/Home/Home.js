@@ -40,6 +40,10 @@ const Home = () => {
                         <Typography variant="h4" className="home-typo">
                             You do not need to be a major store inorder to have major reach
                         </Typography>
+                        <Typography className="home-typo2">
+                            on the blvck Market your product could reach any corner of Mzansi. Build your brand
+                            stronger and we will help you take it further
+                        </Typography>
 
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6}>

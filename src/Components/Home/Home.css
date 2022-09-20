@@ -5,6 +5,13 @@
 .home-typo{
     position: relative;
     top: 5em;
+    justify-content: center;
+    color: red;
+}
+.home-typo2{
+    position: relative;
+    top: 12em;
+    justify-content: center;
 }
 .header{
     position: relative;
