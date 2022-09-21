@@ -10,7 +10,7 @@ const Store = () => {
         <div className='Store-head'>
             <Navbar/>
             <div className='Store-con'>
-                <Typography></Typography>
+                <Typography>Welcome to the Market</Typography>
             </div>
 
         </div>
