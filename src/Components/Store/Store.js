@@ -8,6 +8,10 @@ const Store = () => {
 
     return (
         <div className='Store-head'>
+            <Navbar/>
+            <div className='Store-con'>
+                <Typography></Typography>
+            </div>
 
         </div>
     )
