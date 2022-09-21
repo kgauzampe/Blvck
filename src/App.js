@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Auction from './Components/Auction/Auction';
 import Home from './Components/Home/Home'
+import Login from './Components/Auth/Login';
+import Register from './Components/Auth/SignUp';
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
  
         <Route  path="/" element={<Home />} />
         <Route path="Auction" element={<Auction />} />
-        {/* <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<NoPage />} /> */}
+        <Route path="Login" element={<Login />} />
+        <Route path="/SignUp" element={<Register />} />
+   
      
     </Routes>
   </BrowserRouter>
