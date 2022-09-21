@@ -42,7 +42,7 @@ const Home = () => {
                         </Typography>
                         <Typography className="home-typo2">
                             on the blvck Market your product could reach any corner of Mzansi. Build your brand
-                            stronger and we will help you take it further
+                            stronger and we will help you take it further. We are your wings!
                         </Typography>
 
                     </Grid>
