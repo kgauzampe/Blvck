@@ -1,0 +1,8 @@
+.formFields{
+    position: relative;
+    display: block;
+}
+.login-content{
+    position: relative;
+    justify-content: center;
+}
