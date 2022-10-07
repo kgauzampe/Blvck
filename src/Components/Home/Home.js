@@ -38,11 +38,11 @@ const Home = () => {
                 <Grid container>
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <Typography variant="h4" className="home-typo">
-                            You do not need to be a major store inorder to have major reach
+                            You do not need to be a major store inorder to play in the major league
                         </Typography>
                         <Typography className="home-typo2">
                             on the blvck Market your product could reach any corner of Mzansi. Build your brand
-                            stronger and we will help you take it further. We are your wings!
+                            stronger and we will help you take it further. We are your wings!!
                         </Typography>
 
                     </Grid>
