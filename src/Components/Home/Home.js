@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Typography, Button, Grid } from '@material-ui/core';
+import { Container,Typography, Grid } from '@material-ui/core';
 import Navbar from "../NavBar/Navbar";
 import image1 from "../../Img/1.jpg";
 import image2 from "../../Img/2.jpg";
@@ -10,7 +10,6 @@ import image6 from "../../Img/6.jpg";
 import image7 from "../../Img/7.jpg";
 import image8 from "../../Img/8.jpg";
 import SimpleImageSlider from "react-simple-image-slider";
-import Navigation from "../NavBar/Navigation";
 import './Home.css'; 
 const images = [
     { url: image1 },
@@ -25,7 +24,8 @@ const images = [
 
 const Home = () => {
     return(
-        <div className="home-Container">         
+        <div className="home-Container">    
+        <Navbar/>     
             <Container>
                 <div className="header">
                     <Typography variant="h3" className="head1">The</Typography>
