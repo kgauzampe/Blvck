@@ -30,7 +30,7 @@ const Home = () => {
                 <div className="header">
                     <Typography variant="h3" className="head1">The</Typography>
                     <Typography variant="h3" className="head2">BLVCK</Typography>
-                    <Typography variant="h3" className="head1">market</Typography>
+                    <Typography variant="h3" className="head1">Market</Typography>
                 </div>
            
 
