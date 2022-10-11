@@ -23,16 +23,17 @@ const Navbar = () => {
         margin: "1rem",
         textDecoration: "none",
         color: 'black',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        listStyle: 'none'
     };
 
-    window.addEventListener('scroll', changeColor)
+    // window.addEventListener('scroll', changeColor)
 
-    const logout = async () => {
-        console.log("POO0")
+    // const logout = async () => {
+    //     console.log("POO0")
     
-        navigate('/login')
-    }
+    //     navigate('/login')
+    // }
 
     return (
  
