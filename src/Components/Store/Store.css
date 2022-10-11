@@ -14,11 +14,14 @@
 .list1{
     position: relative;
     display: flex;
-    gap: 0.2em;
+    gap: 1em;
 }
 .list2{
     position: relative;
     display: flex;
-    gap: 0.2em;
+    gap: 1em;
     top: 0.5em;
+}
+.jss5 {
+    max-width: 280px !important;
 }
