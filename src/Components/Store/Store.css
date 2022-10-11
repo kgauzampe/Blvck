@@ -1,0 +1,12 @@
+.storeType{
+    position: relative;
+    justify-content: center;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.productList{
+    position: relative;
+    top: 10em;
+    left: 2em;
+}

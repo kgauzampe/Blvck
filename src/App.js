@@ -5,6 +5,7 @@ import Auction from './Components/Auction/Auction';
 import Home from './Components/Home/Home'
 import Login from './Components/Auth/Login';
 import Register from './Components/Auth/SignUp';
+import Store from './Components/Store/Store';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Auction" element={<Auction />} />
         <Route path="Login" element={<Login />} />
         <Route path="/SignUp" element={<Register />} />
+        <Route path="/Store" element={<Store />} />
    
      
     </Routes>

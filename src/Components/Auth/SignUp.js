@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container,Typography, Button, Grid, TextField } from '@material-ui/core';
 import Navbar from "../NavBar/Navbar";
+import image1 from "../../Img/1.jpg";
 import './Login.css'
 
 

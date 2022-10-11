@@ -7,7 +7,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-
+import image1 from "../../Img/1.jpg";
+import './Store.css'
 
 const useStyles = makeStyles({
     root: {
@@ -23,12 +24,15 @@ const Store = () => {
         <div className='Store-head'>
             <Navbar/>
             <div className='Store-con'>
-                <Typography>Welcome to the Market</Typography>
+                <Typography variant="h3" className="storeType">Welcome to the Market</Typography>
+
+                <div className='productList'>
+                    <div className='item1'>
                     <Card className={classes.root}>
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image="/static/images/cards/contemplative-reptile.jpg"
+                            image={image1}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -49,6 +53,91 @@ const Store = () => {
                             </Button>
                         </CardActions>
                     </Card>
+                    </div>
+                    <div className='item2'>
+                    <Card className={classes.root}>
+                        <CardActionArea>
+                            <CardMedia
+                            className={classes.media}
+                            image={image1}
+                            title="Contemplative Reptile"
+                            />
+                            <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Product Name
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                               this will hold a basic product description, that will lay out all specs od the certain product
+                            </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                            Purchase
+                            </Button>
+                            <Button size="small" color="primary">
+                            Learn More
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    </div>
+                    <div className='item3'>
+                    <Card className={classes.root}>
+                        <CardActionArea>
+                            <CardMedia
+                            className={classes.media}
+                            image={image1}
+                            title="Contemplative Reptile"
+                            />
+                            <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Product Name
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                               this will hold a basic product description, that will lay out all specs od the certain product
+                            </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                            Purchase
+                            </Button>
+                            <Button size="small" color="primary">
+                            Learn More
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    </div>
+                    <div className='item4'>
+                    <Card className={classes.root}>
+                        <CardActionArea>
+                            <CardMedia
+                            className={classes.media}
+                            image={image1}
+                            title="Contemplative Reptile"
+                            />
+                            <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Product Name
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                               this will hold a basic product description, that will lay out all specs od the certain product
+                            </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                            Purchase
+                            </Button>
+                            <Button size="small" color="primary">
+                            Learn More
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    </div>
+                
+                </div>
+                   
             </div>
 
         </div>
