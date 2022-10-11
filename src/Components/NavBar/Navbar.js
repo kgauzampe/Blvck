@@ -5,14 +5,6 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { Button } from '@material-ui/core';
 import './Navbar.css';
 
-
-const linkStyle = {
-    margin: "1rem",
-    textDecoration: "none",
-
-};
-
-
 const Navbar = () => {
     const navigate = useNavigate();
     const [click, setClick] = useState(false)
@@ -43,10 +35,9 @@ const Navbar = () => {
     }
 
     return (
-        // <div className='nv'></div>
+ 
         <div className={color ? 'header header-bg' : 'navheader'}>
-            {/* <div className='nav-logo'><Link to='/'><img src={logo} alt="Logo" width='230px' height='auto' /></Link></div> */}
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <ul style={linkStyle} className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
                     <Link to='/' >Home</Link>
                 </li>
@@ -56,18 +47,17 @@ const Navbar = () => {
                 <li>
                     <Link to='/about'>About Us</Link>
                 </li>
-                 {/* <li>
-                    {!supabase.auth.user() ? <Link to='/login' style={linkStyle}>Sign In</Link> : <a onClick={() => logout()} style={linkStyle}>Sign Out</a>}
+                <li>
+                    <Link to='/Store'>Store</Link>
                 </li>
-                 */}
-               
+                <li>
+                    <Link to='/Store'>Auction</Link>
+                </li>       
             </ul>
             <div className='hamburger' onClick={handleClick}>
                 {click ? (<FaTimes size={25} style={{ color: '#2d9ca2' }} />) : (<FaBars size={25} style={{ color: '#2d9ca2' }} />)}
 
             </div>
-            {/* disableRipple 
-        {!supabase.auth.user && } */}
         </div>
     )
 }
