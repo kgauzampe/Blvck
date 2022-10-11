@@ -33,17 +33,16 @@ const Store = () => {
                             />
                             <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
-                                Lizard
+                                Product Name
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
+                               this will hold a basic product description, that will lay out all specs od the certain product
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Share
+                            Purchase
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -56,5 +55,6 @@ const Store = () => {
     )
 }
 
+export default Store
 
 
