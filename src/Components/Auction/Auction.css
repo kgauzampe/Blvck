@@ -1,0 +1,7 @@
+.AuctTypo{
+    position: relative;
+    justify-content: center;
+    color: red;
+    display: flex;
+    justify-content: center;   
+}

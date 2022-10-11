@@ -26,7 +26,7 @@ const Auction = () => {
             <Navbar/>
             <Container>
                 <div className='cards'>
-                    <Typography variant='h3'>Place your Bid</Typography>
+                    <Typography variant='h3' className='AuctTypo'>Place your Bid</Typography>
                     <Card className={classes.root}>
                         <CardActionArea>
                             <CardMedia
