@@ -6,7 +6,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-
+import Navbar from '../NavBar/Navbar';
+import './Auction.css'
 const useStyles = makeStyles({
     root: {
       maxWidth: 345,
@@ -22,6 +23,7 @@ const Auction = () => {
 
     return(
         <div className='AuctContainer'>
+            <Navbar/>
             <Container>
                 <div className='cards'>
                     <Typography variant='h3'>Place your Bid</Typography>
