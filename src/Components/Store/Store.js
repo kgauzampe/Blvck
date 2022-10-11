@@ -31,7 +31,7 @@ const Store = () => {
         <div className='Store-head'>
             <Navbar/>
             <div className='Store-con'>
-                <Typography variant="h3" className="storeType">Welcome to the Market</Typography>
+                <Typography fontStyle="oblique" fontWeight="fontWeightBold" variant="h3" className="storeType">Welcome to the Market</Typography>
 
                 <div className='productList'>
                     <div className='list1'>
