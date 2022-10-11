@@ -8,6 +8,13 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import image1 from "../../Img/1.jpg";
+import image2 from "../../Img/2.jpg";
+import image3 from "../../Img/3.jpg";
+import image4 from "../../Img/4.jpg";
+import image5 from "../../Img/5.jpg";
+import image6 from "../../Img/6.jpg";
+import image7 from "../../Img/7.jpg";
+import image8 from "../../Img/8.jpg";
 import './Store.css'
 
 const useStyles = makeStyles({
@@ -60,7 +67,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image2}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -87,7 +94,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image3}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -114,7 +121,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image4}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -143,7 +150,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image5}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -170,7 +177,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image6}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -197,7 +204,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image7}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
@@ -224,7 +231,7 @@ const Store = () => {
                         <CardActionArea>
                             <CardMedia
                             className={classes.media}
-                            image={image1}
+                            image={image8}
                             title="Contemplative Reptile"
                             />
                             <CardContent>
