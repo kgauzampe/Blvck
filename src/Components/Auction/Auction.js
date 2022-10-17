@@ -56,7 +56,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -83,7 +83,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -110,7 +110,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                                Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -137,7 +137,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -166,7 +166,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -193,7 +193,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -220,7 +220,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
@@ -247,7 +247,7 @@ const Auction = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                            Purchase
+                             Bid
                             </Button>
                             <Button size="small" color="primary">
                             Learn More
